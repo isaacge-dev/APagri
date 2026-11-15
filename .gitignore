@@ -1,0 +1,10 @@
+# Environment and sensitive credentials
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db

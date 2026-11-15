@@ -1,0 +1,17 @@
+# Exclude sensitive environment configuration
+.env
+.env.*
+
+# Exclude Git metadata
+.git
+.gitignore
+.gitattributes
+
+# Exclude Docker setup files
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Exclude documentation and SQL database dump / migration scripts
+*.sql
+*.md
